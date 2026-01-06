@@ -12,15 +12,15 @@ body {
 .container {
 	border: 10px solid #6c38cc;
 	display: flex;
-	flex-flow: column wrap;
-	align-items: flex-start;
+	flex-direction: column;
+	justify-content: flex-start;
+	height: 200vh;
 }
 
 .item {
 	background: #232228;
 	border: 1px solid #6c38cc ;
 	text-align: center;
-	width: calc(100% / 3);
 	padding: 10px;
 }
 
